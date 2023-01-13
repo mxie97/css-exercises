@@ -3,6 +3,8 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .logo {
@@ -11,7 +13,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 10px;
 }
 
 ul {
@@ -19,17 +20,8 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-  margin: auto 10px;
-  gap: 10px;
-}
-
-.left-links, .right-links {
-  display: flex;
-  flex: 1;
-}
-
-.right-links {
-  justify-content: flex-end;
+  gap: 8px;
+  margin: 0;
 }
 
 a {
@@ -38,5 +30,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  color: blue;
 }
+
